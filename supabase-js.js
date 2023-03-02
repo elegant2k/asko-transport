@@ -7,7 +7,7 @@ const form = document.querySelector('form');
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
 
-  const turid = document.querySelector('#Turid').value;
+  const turid = document.querySelector('#turid').value;
   const dato = document.querySelector('#dato').value;
   const ankomsttid = document.querySelector('#ankomsttid').value;
   const lossestart = document.querySelector('#lossestart').value;
@@ -16,7 +16,7 @@ form.addEventListener('submit', async (event) => {
 
   try {
     const { data, error } = await supabase
-      .from('lossetider')
+      .from('AOF')
       .insert({ turid, dato, ankomsttid, lossestart, losseferdig, kommentar });
 
     if (error) {
