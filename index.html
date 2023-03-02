@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Loggføring av lossingstider</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Loggføring av lossingstider</h1>
+    <form>
+      <label for="Turid">Turid:</label>
+      <input type="number" id="Turid" name="Turid" required>
+      <br>
+      <label for="dato">Dato:</label>
+      <input type="date" id="dato" name="dato" required>
+      <br>
+      <label for="ankomsttid">Tidspunkt for ankomst:</label>
+      <input type="time" id="ankomsttid" name="ankomsttid" required>
+      <br>
+      <label for="lossestart">Tidspunkt for start av lossing:</label>
+      <input type="time" id="lossestart" name="lossestart" required>
+      <br>
+      <label for="losseferdig">Tidspunkt for fullføring av lossing:</label>
+      <input type="time" id="losseferdig" name="losseferdig" required>
+      <br>
+      <label for="kommentar">Kommentar:</label>
+      <textarea id="kommentar" name="kommentar" rows="4" cols="50"></textarea>
+      <br>
+      <input type="submit" value="Loggfør">
+    </form>
+  </body>
+</html>
