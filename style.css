@@ -4,9 +4,8 @@ body {
 }
 
 .logo {
-  display: flex;
-  height: 100%;
-  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .tekst {
@@ -14,12 +13,12 @@ body {
 }
 
 form {
-  max-width: 1;
+  max-width: 500px;
   margin: 0 auto;
   background-color: #fff;
+  border-radius: 5px;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #ccc;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
 label {
