@@ -42,7 +42,6 @@ label {
 }
 
 select[name="transportør"] {
-  border: #0056b3 solid;
   display: flex;
   font-size: 100%;
   font-weight: bolder;
